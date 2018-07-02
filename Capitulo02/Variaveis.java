@@ -175,7 +175,7 @@ public class Variaveis {
 		
 	// 2.14 Palavras Reservadas
 	
-	// 2.15 Variáveis com nomes repetidos
+	// 2.15 ERRO: Variáveis com nomes repetidos
 		
 		/*
 		int a = 4;
@@ -185,28 +185,28 @@ public class Variaveis {
 		Char var = 'a';
 		*/
 		
-	// 2.16 Esquecer a inicialização de uma variável local
+	// 2.16 ERRO: Esquecer a inicialização de uma variável local
 		
 		/*
 		int naoIniciada;
 		System.out.println(naoIniciada);
 		*/
 	
-	//	2.17 Trocar aspas simples por aspas duplas ou vice-versa
+	//	2.17 ERRO: Trocar aspas simples por aspas duplas ou vice-versa
 		
 		/*
 		char trocarAspas = "a";
 		String trocarAspas2 = 'Sem as aspas duplas';
 		*/
 	
-	// 2.18 Utilizar o separador decimal errado	
+	// 2.18 ERRO: Utilizar o separador decimal errado	
 		
 		/*
 		double separadorErrado = 19,09;
 		float separadorErrado2 = 15,2F;
 		*/
 	
-	// 2.19 Valores incompatíveis com os tipos das variáveis
+	// 2.19 ERRO: Valores incompatíveis com os tipos das variáveis
 		
 		/*
 		int valoresIncopativel = 12.5;
@@ -214,7 +214,7 @@ public class Variaveis {
 		char valoresIncopativel3 = "asdasd";
 		*/
 	
-	// 2.20 Esquecer dos caracteres de tipagem para long ou flat
+	// 2.20 ERRO: Esquecer dos caracteres de tipagem para long ou flat
 		
 		/*
 		float semTipagem = 1230;
